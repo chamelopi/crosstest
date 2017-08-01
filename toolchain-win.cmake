@@ -2,8 +2,8 @@
 set(CMAKE_SYSTEM_NAME Windows)
 
 # Which compilers to use for C and C++
-SET(CMAKE_C_COMPILER x86_x64-w64-mingw-gcc)
-SET(CMAKE_CXX_COMPILER x86_x64-w64-mingw-g++)
+SET(CMAKE_C_COMPILER x86_64-w64-mingw32-gcc)
+SET(CMAKE_CXX_COMPILER x86_64-w64-mingw32-g++)
 
 # Location of the target environment (add directory for user-built libararies
 # if necessary)

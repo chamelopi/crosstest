@@ -28,7 +28,7 @@
 
     add_library(C codeC.cpp)
     add_executable(exec codeA.cpp codeB.cpp)
-    target_add_link_library(exec C)
+    target_link_libraries(exec C)
 
 4. Create build script to automate cmake + make process, as well as creating & deleting build directories
 
